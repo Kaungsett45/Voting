@@ -43,8 +43,8 @@ body,html{
     color: white;
 }
 .card button:active{
-    background-color: #6745ac;
-    transition: 1s;
+    background-color: #5b30b1;
+    
 }
 .card p,.card span{
     padding: 0px 4px 0px 4px;
@@ -60,7 +60,7 @@ body,html{
     transform: translate(-50%, -50%);
     border-radius: 4px;
     background-color: #ba98fd;
-    transition:  1.2s ease-in-out;
+    
 }
 .votebox form .cancel{
     float: right;
