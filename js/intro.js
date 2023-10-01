@@ -26,7 +26,19 @@ window.addEventListener('DOMContentLoaded' ,()=>{
 
 
         setTimeout(() =>{
-             intro.style.top ='-100vh';
+             intro.style.top ="-100vh";
         },2000)
     })
 })
+
+
+function appearbox(){
+     
+    var appear =document.getElementById("votebox");
+    appear.style.visibility ="visible";
+}
+function cancel(){
+     
+    var appear =document.getElementById("votebox");
+    appear.style.visibility ="hidden";
+}
