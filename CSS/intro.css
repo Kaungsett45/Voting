@@ -87,10 +87,13 @@ button{
     border-radius: 2px;
     background-color: #845dd3;
     color: white;
+    border:none;
 }
 button:active{
     background-color: #6745ac;
     transition: 1s;
+    
+    border:none;
 }
 .quebdiv section{
     margin-top: 10px;
